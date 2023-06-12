@@ -25,8 +25,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        startMapView()
-        drawPolygon()
+//        startMapView()
+//        drawPolygon()
     }
     
     

@@ -13,7 +13,7 @@
 		BEF3EC072A32C82400A7B75B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF3EC052A32C82400A7B75B /* Main.storyboard */; };
 		BEF3EC092A32C82500A7B75B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF3EC082A32C82500A7B75B /* Assets.xcassets */; };
 		BEF3EC0C2A32C82500A7B75B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF3EC0A2A32C82500A7B75B /* LaunchScreen.storyboard */; };
-		BEF3EC152A32CBD600A7B75B /* Mapbox in Frameworks */ = {isa = PBXBuildFile; productRef = BEF3EC142A32CBD600A7B75B /* Mapbox */; };
+		BEF3EC182A37064F00A7B75B /* Mapbox in Frameworks */ = {isa = PBXBuildFile; productRef = BEF3EC172A37064F00A7B75B /* Mapbox */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEF3EC152A32CBD600A7B75B /* Mapbox in Frameworks */,
+				BEF3EC182A37064F00A7B75B /* Mapbox in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			);
 			name = "map-sample";
 			packageProductDependencies = (
-				BEF3EC142A32CBD600A7B75B /* Mapbox */,
+				BEF3EC172A37064F00A7B75B /* Mapbox */,
 			);
 			productName = "map-sample";
 			productReference = BEF3EBFC2A32C82400A7B75B /* map-sample.app */;
@@ -117,7 +117,7 @@
 			);
 			mainGroup = BEF3EBF32A32C82400A7B75B;
 			packageReferences = (
-				BEF3EC132A32CBD600A7B75B /* XCRemoteSwiftPackageReference "maps-sdk-ios" */,
+				BEF3EC162A37064F00A7B75B /* XCRemoteSwiftPackageReference "maps-sdk-ios" */,
 			);
 			productRefGroup = BEF3EBFD2A32C82400A7B75B /* Products */;
 			projectDirPath = "";
@@ -368,7 +368,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		BEF3EC132A32CBD600A7B75B /* XCRemoteSwiftPackageReference "maps-sdk-ios" */ = {
+		BEF3EC162A37064F00A7B75B /* XCRemoteSwiftPackageReference "maps-sdk-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/vietmap-company/maps-sdk-ios.git";
 			requirement = {
@@ -379,9 +379,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		BEF3EC142A32CBD600A7B75B /* Mapbox */ = {
+		BEF3EC172A37064F00A7B75B /* Mapbox */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = BEF3EC132A32CBD600A7B75B /* XCRemoteSwiftPackageReference "maps-sdk-ios" */;
+			package = BEF3EC162A37064F00A7B75B /* XCRemoteSwiftPackageReference "maps-sdk-ios" */;
 			productName = Mapbox;
 		};
 /* End XCSwiftPackageProductDependency section */
