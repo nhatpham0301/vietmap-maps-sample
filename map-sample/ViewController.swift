@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Mapbox
+import VietMap
 
 class ViewController: UIViewController {
     var mapView: MGLMapView!
@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        startMapView()
+        startMapView()
 //        drawPolygon()
     }
     
